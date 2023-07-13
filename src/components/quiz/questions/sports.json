@@ -1,0 +1,66 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "Sports",
+        "question": "Which Indian cricketer holds the record for the highest individual score in Test cricket?",
+        "correct_answer": "Virender Sehwag",
+        "incorrect_answers": ["Sachin Tendulkar", "Rahul Dravid", "Virat Kohli"]
+      },
+      {
+        "category": "Sports",
+        "question": "Who is the only Indian badminton player to have won an Olympic medal?",
+        "correct_answer": "PV Sindhu",
+        "incorrect_answers": ["Saina Nehwal", "Prakash Padukone", "Kidambi Srikanth"]
+      },
+      {
+        "category": "Sports",
+        "question": "Which Indian wrestler won the first Olympic medal in wrestling for India?",
+        "correct_answer": "Khashaba Dadasaheb Jadhav",
+        "incorrect_answers": ["Sushil Kumar", "Yogeshwar Dutt", "Bajrang Punia"]
+      },
+      {
+        "category": "Sports",
+        "question": "Who is the only Indian athlete to have won an individual gold medal at the Olympics?",
+        "correct_answer": "Abhinav Bindra",
+        "incorrect_answers": ["Milkha Singh", "P. T. Usha", "Dhyan Chand"]
+      },
+      {
+        "category": "Sports",
+        "question": "Which Indian boxer is nicknamed 'Magnificent Mary'?",
+        "correct_answer": "Mary Kom",
+        "incorrect_answers": ["Vijender Singh", "Amit Panghal", "Shiva Thapa"]
+      },
+      {
+        "category": "Sports",
+        "question": "Which Indian hockey player is known as the 'Wizard of Hockey'?",
+        "correct_answer": "Dhyan Chand",
+        "incorrect_answers": ["Sardar Singh", "Dhanraj Pillay", "Bir Bahadur Chhetri"]
+      },
+      {
+        "category": "Sports",
+        "question": "Who is the first Indian woman to win an Olympic medal in weightlifting?",
+        "correct_answer": "Karnam Malleswari",
+        "incorrect_answers": ["Mirabai Chanu", "Saikhom Mirabai", "Punam Yadav"]
+      },
+      {
+        "category": "Sports",
+        "question": "Which Indian cricketer is known as the 'God of Cricket'?",
+        "correct_answer": "Sachin Tendulkar",
+        "incorrect_answers": ["Virat Kohli", "Rahul Dravid", "Sourav Ganguly"]
+      },
+      {
+        "category": "Sports",
+        "question": "Which Indian footballer has the most international goals for the Indian national team?",
+        "correct_answer": "Sunil Chhetri",
+        "incorrect_answers": ["Bhaichung Bhutia", "I. M. Vijayan", "Chuni Goswami"]
+      },
+      {
+        "category": "Sports",
+        "question": "Who is the first Indian athlete to win a medal at the Paralympic Games?",
+        "correct_answer": "Murlikant Petkar",
+        "incorrect_answers": ["Devendra Jhajharia", "Deepa Malik", "Mariyappan Thangavelu"]
+      }
+    ]
+  }
+  

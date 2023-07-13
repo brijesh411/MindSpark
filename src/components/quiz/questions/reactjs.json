@@ -1,0 +1,106 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "ReactJS",
+        "question": "What is ReactJS?",
+        "correct_answer": "A JavaScript library for building user interfaces",
+        "incorrect_answers": [
+          "A programming language",
+          "A markup language",
+          "A styling language"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is JSX in ReactJS?",
+        "correct_answer": "A syntax extension for JavaScript that allows writing HTML-like code",
+        "incorrect_answers": [
+          "A JavaScript library for handling HTTP requests",
+          "A styling framework for ReactJS",
+          "A database management system"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is the virtual DOM in ReactJS?",
+        "correct_answer": "A lightweight copy of the actual DOM used for efficient updates",
+        "incorrect_answers": [
+          "A JavaScript framework for building UI components",
+          "A mechanism for handling events in ReactJS",
+          "A tool for debugging ReactJS applications"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is a state in ReactJS?",
+        "correct_answer": "An object that stores component-specific data",
+        "incorrect_answers": [
+          "A function that defines the behavior of a component",
+          "A static variable that holds shared data across components",
+          "A collection of reusable UI components"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is a prop in ReactJS?",
+        "correct_answer": "A way to pass data from a parent component to its child components",
+        "incorrect_answers": [
+          "A method for updating the state of a component",
+          "A CSS class name for styling a component",
+          "A built-in ReactJS component"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is the purpose of the componentDidMount() lifecycle method in ReactJS?",
+        "correct_answer": "To perform tasks after the component has been rendered on the DOM",
+        "incorrect_answers": [
+          "To initialize the component's state",
+          "To handle user input events",
+          "To update the component's props"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is the purpose of the render() method in ReactJS?",
+        "correct_answer": "To return the JSX that represents the component's UI",
+        "incorrect_answers": [
+          "To define the component's state",
+          "To handle user input events",
+          "To perform cleanup tasks before the component is unmounted"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is the purpose of the setState() method in ReactJS?",
+        "correct_answer": "To update the component's state and trigger a re-render",
+        "incorrect_answers": [
+          "To define the component's initial state",
+          "To handle user input events",
+          "To retrieve data from an API"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is the purpose of the key prop in ReactJS?",
+        "correct_answer": "To provide a unique identifier for elements in a list",
+        "incorrect_answers": [
+          "To define the component's initial state",
+          "To handle user input events",
+          "To specify the order of elements in a layout"
+        ]
+      },
+      {
+        "category": "ReactJS",
+        "question": "What is the purpose of React Router in ReactJS?",
+        "correct_answer": "To enable navigation between different components/pages",
+        "incorrect_answers": [
+          "To handle form submissions in ReactJS",
+          "To manage the component's state",
+          "To make API requests from ReactJS components"
+        ]
+      }
+    ]
+  }
+  

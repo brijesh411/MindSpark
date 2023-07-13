@@ -1,0 +1,66 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "Mathematics",
+        "question": "What is the value of Pi (π)?",
+        "correct_answer": "3.14159",
+        "incorrect_answers": ["2.71828", "1.61803", "4.66920"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "What is the square root of 25?",
+        "correct_answer": "5",
+        "incorrect_answers": ["4", "6", "7"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "What is the result of 8 multiplied by 7?",
+        "correct_answer": "56",
+        "incorrect_answers": ["48", "64", "42"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "Simplify the expression: 3x + 2y - 4x + 7y",
+        "correct_answer": "-x + 9y",
+        "incorrect_answers": ["x + y", "7x - 9y", "-7x + 9y"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "What is the value of the square root of 100?",
+        "correct_answer": "10",
+        "incorrect_answers": ["8", "12", "14"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "What is the result of 15 divided by 3?",
+        "correct_answer": "5",
+        "incorrect_answers": ["3", "4", "6"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "If a triangle has angles measuring 30 degrees and 60 degrees, what is the measure of the third angle?",
+        "correct_answer": "90 degrees",
+        "incorrect_answers": ["45 degrees", "120 degrees", "180 degrees"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "What is the result of 5 squared?",
+        "correct_answer": "25",
+        "incorrect_answers": ["20", "15", "10"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "Simplify the expression: 2(3x - 5) + 4x",
+        "correct_answer": "10x - 10",
+        "incorrect_answers": ["6x - 5", "14x + 10", "6x + 10"]
+      },
+      {
+        "category": "Mathematics",
+        "question": "What is the result of 12 multiplied by 9?",
+        "correct_answer": "108",
+        "incorrect_answers": ["96", "114", "120"]
+      }
+    ]
+  }
+  

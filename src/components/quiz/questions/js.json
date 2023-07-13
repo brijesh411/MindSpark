@@ -1,0 +1,106 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "JavaScript",
+        "question": "What is JavaScript?",
+        "correct_answer": "A programming language",
+        "incorrect_answers": [
+          "A markup language",
+          "A styling language",
+          "A database language"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "What is the typeof operator used for in JavaScript?",
+        "correct_answer": "Checking the data type of a variable",
+        "incorrect_answers": [
+          "Declaring a variable",
+          "Performing mathematical calculations",
+          "Looping through an array"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "What is the output of the following code?\n\nconsole.log(2 + '2');",
+        "correct_answer": "22",
+        "incorrect_answers": [
+          "4",
+          "NaN",
+          "Error"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "Which method is used to add an element at the end of an array?",
+        "correct_answer": "push",
+        "incorrect_answers": [
+          "pop",
+          "shift",
+          "unshift"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "What does the isNaN() function do?",
+        "correct_answer": "Checks if a value is NaN (Not-a-Number)",
+        "incorrect_answers": [
+          "Checks if a value is a number",
+          "Checks if a value is undefined",
+          "Checks if a value is null"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "What is the result of the following expression?\n\n3 + 2 + '7'",
+        "correct_answer": "57",
+        "incorrect_answers": [
+          "12",
+          "322",
+          "57"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "Which function is used to parse a string and return an integer?",
+        "correct_answer": "parseInt",
+        "incorrect_answers": [
+          "parseFloat",
+          "toString",
+          "toFixed"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "What does the concat() method do in JavaScript?",
+        "correct_answer": "Concatenates two or more strings",
+        "incorrect_answers": [
+          "Splits a string into an array",
+          "Reverses a string",
+          "Returns the character at a specified index"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "Which operator is used to compare the value and data type of two variables?",
+        "correct_answer": "===",
+        "incorrect_answers": [
+          "==",
+          "!=",
+          ">"
+        ]
+      },
+      {
+        "category": "JavaScript",
+        "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+        "correct_answer": "Enforces stricter parsing and error handling in the code",
+        "incorrect_answers": [
+          "Declares a variable in strict mode",
+          "Enables ECMAScript 6 features",
+          "Disables the strict mode"
+        ]
+      }
+    ]
+  }
+  

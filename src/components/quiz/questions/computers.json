@@ -1,0 +1,82 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "Computers",
+        "question": "What does CPU stand for?",
+        "correct_answer": "Central Processing Unit",
+        "incorrect_answers": [
+          "Central Process Unit",
+          "Computer Personal Unit",
+          "Central Processor Unit"
+        ]
+      },
+      {
+        "category": "Computers",
+        "question": "What is the primary function of an operating system?",
+        "correct_answer": "To manage computer hardware and software resources",
+        "incorrect_answers": [
+          "To provide internet connectivity",
+          "To create documents and spreadsheets",
+          "To play video games"
+        ]
+      },
+      {
+        "category": "Computers",
+        "question": "What is the binary representation of the number 10?",
+        "correct_answer": "1010",
+        "incorrect_answers": ["1000", "1100", "1110"]
+      },
+      {
+        "category": "Computers",
+        "question": "What is the protocol used for sending and receiving email over the Internet?",
+        "correct_answer": "SMTP",
+        "incorrect_answers": ["HTTP", "FTP", "TCP/IP"]
+      },
+      {
+        "category": "Computers",
+        "question": "What is the purpose of a firewall?",
+        "correct_answer": "To protect a computer or network from unauthorized access",
+        "incorrect_answers": [
+          "To connect to the internet",
+          "To store and organize data",
+          "To create backups of files"
+        ]
+      },
+      {
+        "category": "Computers",
+        "question": "Which programming language is commonly used for web development?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": ["Python", "Java", "C++"]
+      },
+      {
+        "category": "Computers",
+        "question": "What does RAM stand for?",
+        "correct_answer": "Random Access Memory",
+        "incorrect_answers": [
+          "Read-Only Memory",
+          "Remote Access Manager",
+          "Randomized Algorithm Machine"
+        ]
+      },
+      {
+        "category": "Computers",
+        "question": "What is the main component of a computer motherboard?",
+        "correct_answer": "CPU",
+        "incorrect_answers": ["GPU", "RAM", "Hard Drive"]
+      },
+      {
+        "category": "Computers",
+        "question": "Which company developed the first graphical web browser?",
+        "correct_answer": "Netscape",
+        "incorrect_answers": ["Microsoft", "Apple", "Google"]
+      },
+      {
+        "category": "Computers",
+        "question": "What is the largest unit of storage in computers?",
+        "correct_answer": "Yottabyte",
+        "incorrect_answers": ["Terabyte", "Petabyte", "Exabyte"]
+      }
+    ]
+  }
+  

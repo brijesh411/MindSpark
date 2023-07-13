@@ -1,0 +1,66 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "English",
+        "question": "What is the plural form of 'child'?",
+        "correct_answer": "Children",
+        "incorrect_answers": ["Childs", "Childes", "Childies"]
+      },
+      {
+        "category": "English",
+        "question": "Which word is the opposite of 'victory'?",
+        "correct_answer": "Defeat",
+        "incorrect_answers": ["Success", "Triumph", "Accomplishment"]
+      },
+      {
+        "category": "English",
+        "question": "What is the superlative form of 'good'?",
+        "correct_answer": "Best",
+        "incorrect_answers": ["Better", "Goodest", "Well"]
+      },
+      {
+        "category": "English",
+        "question": "Which word is a synonym of 'happy'?",
+        "correct_answer": "Joyful",
+        "incorrect_answers": ["Sad", "Angry", "Miserable"]
+      },
+      {
+        "category": "English",
+        "question": "What is the past tense of 'go'?",
+        "correct_answer": "Went",
+        "incorrect_answers": ["Goed", "Gone", "Gonee"]
+      },
+      {
+        "category": "English",
+        "question": "Which word means 'the act of giving up a position or surrendering'?",
+        "correct_answer": "Resignation",
+        "incorrect_answers": ["Acceptance", "Rejection", "Submission"]
+      },
+      {
+        "category": "English",
+        "question": "What is the synonym of 'brave'?",
+        "correct_answer": "Courageous",
+        "incorrect_answers": ["Cowardly", "Fearful", "Timid"]
+      },
+      {
+        "category": "English",
+        "question": "Which word is spelled correctly?",
+        "correct_answer": "Accommodation",
+        "incorrect_answers": ["Acommodation", "Accomodation", "Acomodation"]
+      },
+      {
+        "category": "English",
+        "question": "What is the opposite of 'empty'?",
+        "correct_answer": "Full",
+        "incorrect_answers": ["Blank", "Void", "Vacant"]
+      },
+      {
+        "category": "English",
+        "question": "Which word is a synonym of 'beautiful'?",
+        "correct_answer": "Gorgeous",
+        "incorrect_answers": ["Ugly", "Plain", "Hideous"]
+      }
+    ]
+  }
+  
