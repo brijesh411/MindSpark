@@ -36,7 +36,7 @@ class Certificate extends Component {
         <div id="downloadWrapper" ref={this.certificateWrapper}>
           <div id="certificateWrapper">
             <p>{this.state.Name}</p>
-            <img src="temp photo" alt="Certificate" />
+            <img src="https://via.placeholder.com/150/0000FF/808080 ?Text=PAKAINFO.com" alt="Certificate" />
           </div>
         </div>
       </div>
