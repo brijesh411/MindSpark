@@ -1,6 +1,6 @@
 .yap-dog-box {
     width: 0px;
-    height: 80px;
+    height: 100px;
     
     position: absolute;
     cursor: pointer;
@@ -8,9 +8,9 @@
 
   .yap-dog {
     animation: yap-dog 0.5s ease-in-out;
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    left: -80px;
+    left: 80px;
     transform: translateY(-100%);
     width: 70px;
     height: 70px;
@@ -19,26 +19,32 @@
   @keyframes yap-dog {
     0% {
       transform: translateY(0%);
+      opacity: 1;
     }
     50% {
       transform: translateY(0%);
+      opacity: 1;
     }
     100% {
       transform: translateY(0%);
+      opacity: 1;
     }
   }
 
   @keyframes yap-dog-repeat {
     0% {
       transform: translateY(-75%);
+      opacity: 0;
     }
     
     50% {
       transform: translateY(0);
+      opacity: 1;
     }
 
     100% {
       transform: translateY(-75%);
+      opacity: 0;
     }
   }
 

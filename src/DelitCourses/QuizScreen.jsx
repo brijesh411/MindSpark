@@ -18,7 +18,7 @@ function QuizScreen({ category, getQuizSummary }) {
   const [answer, setAnswer] = useState({ ...answerState });
   const [result, setResult] = useState([]);
   const [questionNumber, setQuestionNumber] = useState(0);
-  const [timer, setTimer] = useState(30);
+  const [timer, setTimer] = useState(60);
 
   const formatCategoryText = category === 'all' ? '' : `&category=${category}`;
   const currentQuestion = quizData?.data?.[questionNumber];
@@ -32,7 +32,7 @@ function QuizScreen({ category, getQuizSummary }) {
         setQuizData({ ...nonPremitiveReference.current, loading: true });
         
         const response = await fetch(
-          `https://opentdb.com/api.php?amount=10${formatCategoryText}`
+          `https://opentdb.com/api.php?amount=50${formatCategoryText}`
         );
         const { results } = await response.json();
         // if there is no data coming from api but status 200 is returned then we want to end up in catch block
@@ -78,7 +78,7 @@ function QuizScreen({ category, getQuizSummary }) {
         ]);
       };
 
-      if (questionNumber === 9) {
+      if (questionNumber === 49) {
         updateResult();
 
         return getQuizSummary([
@@ -94,7 +94,7 @@ function QuizScreen({ category, getQuizSummary }) {
       }
       updateResult();
       setAnswer(answerState);
-      setTimer(30);
+      setTimer(60);
       setQuestionNumber(questionNumber + 1);
     },
     [answer, questionNumber, currentQuestion, result, getQuizSummary]
@@ -127,8 +127,9 @@ function QuizScreen({ category, getQuizSummary }) {
 
   const itemClassDisplayController = (option) => {
     if (answer.cheat && answer.answer === option) return 'option-button blinking-options';
-    if (answer.answer === option && !answer.cheat) return 'option-button active-option';
-
+    if (answer.answer === option && !answer.cheat) {
+      return option === currentQuestion.correct_answer ? 'option-button correct-option' : 'option-button incorrect-option';
+    }
     return 'option-button';
   };
 
@@ -142,6 +143,14 @@ function QuizScreen({ category, getQuizSummary }) {
       
       {!quizData.loading && (
         <div className="section">
+          <div className="question">
+            <h2> Select an Option: 
+              <br></br>
+              If It Turns <span style={{color: "rgb(19, 158, 6" }}>Green</span>, Congratulations! You've Chosen the Correct Answer. 
+              <br></br>
+              If It Turns <span style={{color: "rgb(255, 51, 0)" }}>Red</span>, Keep Exploring – It's Not the Right Path Yet. Unleash Your Wisdom and Journey Through the Quiz! 
+            </h2>
+          </div>
           <div className={`timer ${timer <= 5 && 'caution'}`}>{timer}</div>
           <div className="question-info">Question: {questionNumber + 1}</div>
           <div className="question">
@@ -166,7 +175,7 @@ function QuizScreen({ category, getQuizSummary }) {
             </button>
             {answer.answer && !answer.cheat && (
               <button className="confirm-button" onClick={() => handleConfirm()}>
-                {questionNumber === 9 ? 'Submit' : 'Confirm'}
+                {questionNumber === 49 ? 'Submit' : 'Confirm'}
               </button>
             )}
             {!answer.answer && (

@@ -11,6 +11,8 @@ import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import FunQuiz from "./components/quiz/FunQuiz"
 import Certificate from "./components/certificate/Certificate"
+import Delit from "./DelitCourses/FunQuiz"
+
 function App() {
   return (
     <>
@@ -26,6 +28,7 @@ function App() {
           <Route exact path='/contact' Component={Contact} />
           <Route exact path='/quiz' Component={FunQuiz} />
           <Route exact path="/certificate" Component={Certificate} />
+          <Route exact path='/delit' Component={Delit} />
         </Routes>
         <Footer />
       </Router>

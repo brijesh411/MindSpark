@@ -49,7 +49,7 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    coursesName: "Understanding Computer Programming",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -63,7 +63,7 @@ export const coursesCard = [
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "Mathematics Understanding the Language of the Universe",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -77,7 +77,7 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "Mastering the Science and Art of Sports",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -91,7 +91,7 @@ export const coursesCard = [
   {
     id: 4,
     cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    coursesName: "An In-Depth History Course",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -105,7 +105,7 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    coursesName: "Exploring the World of Music",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -119,7 +119,7 @@ export const coursesCard = [
   {
     id: 6,
     cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
+    coursesName: "Embarking on a Journey of Earth's Geography",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -133,7 +133,7 @@ export const coursesCard = [
   {
     id: 7,
     cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
+    coursesName: "A Comprehensive General Knowledge Course",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -147,7 +147,7 @@ export const coursesCard = [
   {
     id: 8,
     cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
+    coursesName: "Exploring International Relations",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -161,7 +161,7 @@ export const coursesCard = [
   {
     id: 9,
     cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    coursesName: "An In-Depth Exploration of Ancient Tales",
     courTeacher: [
       {
         dcover: "./images/back.webp",

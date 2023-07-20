@@ -1,3 +1,30 @@
+/* About */
+
+.about-head-container {
+  text-align: center;
+  margin: 0px 130px 22px;
+}
+
+.about-para-container {
+  margin: 22px 210px;
+}
+
+.content {
+  margin: 0px 319px;
+  padding: 0px 40px;
+}
+
+.about-image {
+  background-color: #1eb2a6;
+  padding: 5px 0px;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.image {
+  padding: 5px 10px 5px 0px;
+}
+
 .aboutHome {
   height: auto;
 }

@@ -8,7 +8,7 @@ const CoursesCard = () => {
       <section className='coursesCard'>
         <div className='container grid2'>
           {coursesCard.map((val) => (
-            <div className='items' key={val.id}>
+            <div className='items'>
               <div className='content flex'>
                 <div className='left'>
                   <div className='img'>
@@ -27,7 +27,7 @@ const CoursesCard = () => {
                   </div>
                   <div className='details'>
                     {val.courTeacher.map((details) => (
-                      <React.Fragment key={details.id}>
+                      <>
                         <div className='box'>
                           <div className='dimg'>
                             <img src={details.dcover} alt='' />
@@ -37,7 +37,7 @@ const CoursesCard = () => {
                           </div>
                         </div>
                         <span>{details.totalTime}</span>
-                      </React.Fragment>
+                      </>
                     ))}
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const CoursesCard = () => {
                   {val.priceAll} / {val.pricePer}
                 </h3>
               </div>
-              <button className='outline-btn'>ENROLL NOW!</button>
+              <button className='outline-btn'>ENROLL NOW !</button>
             </div>
           ))}
         </div>
@@ -55,6 +55,5 @@ const CoursesCard = () => {
     </>
   )
 }
-
 
 export default CoursesCard
